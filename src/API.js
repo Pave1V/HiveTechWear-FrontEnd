@@ -12,7 +12,8 @@ let baseURL;
 // }
 // baseURL = "https://backend-hivetech-wear.herokuapp.com/";
 
-baseURL = "http://127.0.0.1:8000/";
+// baseURL = "http://127.0.0.1:8000/";
+baseURL = "https://hivetechwear-backend.onrender.com/"
 const api = axios.create({
   baseURL: baseURL,
   headers: {
